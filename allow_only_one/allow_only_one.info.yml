@@ -1,0 +1,13 @@
+name: 'Allow Only One'
+description: 'The Allow Only One module allows administrators to require that values supplied for specified fields is a unique combination. Validation will throw an error if another content item exists with the same field value combination.'
+type: module
+package: Field types
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - drupal:node
+  - drupal:taxonomy
+
+# Information added by Drupal.org packaging script on 2022-10-21
+version: '1.0.1'
+project: 'allow_only_one'
+datestamp: 1666386301
